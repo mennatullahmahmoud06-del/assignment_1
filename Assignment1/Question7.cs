@@ -6,8 +6,8 @@ namespace Session_02
     {
         public static void Run()
         {
-            string firstName = "Menna";
-            string lastName = "Ahmed";
+            string firstName = "Mennatullah";
+            string lastName = "Mahmoud";
 
             // Concatenation with +
             string fullName1 = firstName + " " + lastName;

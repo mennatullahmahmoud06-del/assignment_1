@@ -8,9 +8,9 @@ namespace Session_02
         public static void Run()
         {
             Point p1 = new Point(1, 2);
-            Point p2 = p1; // p2 now points to the SAME object in the heap as p1
+            Point p2 = p1;
 
-            p2.X = 99; // modifying through p2
+            p2.X = 99;
 
             Console.WriteLine("p1.X = " + p1.X); // also 99!
             Console.WriteLine("p2.X = " + p2.X); // 99

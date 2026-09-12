@@ -8,11 +8,9 @@ namespace Session_02
         {
             string text = "Communication and Information Engineering";
 
-            // Substring(startIndex, length)
-            string sub1 = text.Substring(0, 13); // "Communication"
+            string sub1 = text.Substring(0, 13);
             Console.WriteLine("Substring(0, 13): " + sub1);
 
-            // Substring(startIndex) - takes everything from startIndex to the end
             string sub2 = text.Substring(18);
             Console.WriteLine("Substring(18): " + sub2);
         }

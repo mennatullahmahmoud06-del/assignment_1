@@ -7,9 +7,8 @@ namespace Session_02
         public static void Run()
         {
             int x = 10;
-            int y = x; // y gets a COPY of x's value
-
-            y = 20; // modifying y
+            int y = x;
+            y = 20;
 
             Console.WriteLine("x = " + x); // still 10
             Console.WriteLine("y = " + y); // 20
